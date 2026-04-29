@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--
+      Final Project
+      Author: Alysson Jones
+      Date:  2/27/26
+
+      Filename: contact.html
+   -->
+   <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>My Golf Hobby</title>
+   <link rel="stylesheet" href="styles.css"/>
+   <script src="modernizr.custom.05819.js"></script>
+   <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Me</h1>
+     <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Golf</a>
+        <a href="equipment.html">Equipment</a>
+        <a href="tips.html">Tips and Techniques</a>
+        <a href="contact.html">Contact</a>
+     </nav>
+    </header>
+    <main>
+
+        <h2>Contact Form</h2>
+        
+        <form id="contactForm" onsubmit="return validateForm()">
+        
+           <label for="name">Name:</label><br>
+           <input type="text" id="name">
+           <p id="nameError" class="error"></p>
+        
+           <label for="email">Email:</label><br>
+           <input type="text" id="email">
+           <p id="emailError" class="error"></p>
+        
+           <label for="years">Years Playing Golf:</label><br>
+           <input type="number" id="years">
+           <p id="yearsError" class="error"></p>
+        
+           <br>
+        
+           <button type="button" onclick="experienceLevel()">Check Experience Level</button>
+           <p id="experienceResult"></p>
+        
+           <br>
+        
+           <button type="submit">Submit</button>
+        
+        </form>
+        
+        <p id="successMessage"></p>
+    </main>
+    <footer>
+      <p>&copy; 2026 Alysson Jones | My Golf Hobby</p>
+    </footer>
+</body>
+
+</html>

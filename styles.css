@@ -1,0 +1,170 @@
+/* 
+   Final Project CSS
+*/
+/*
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   background-color: #f4f4f4;
+}
+
+header {
+   background-color: darkgreen;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+nav a {
+   color: black;
+   margin: 15px;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+main {
+   padding: 20px;
+   text-align: center;
+}
+
+img {
+   margin-top: 20px;
+   border-radius: 10px;
+}
+
+footer {
+   background-color: darkgreen;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   margin-top: 30px;
+}
+*/
+
+/* Reset default browser styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #f4f7f6;
+   color: #333;
+   line-height: 1.6;
+}
+
+/* Header */
+header {
+   background-color: #2e7d32; /* golf green */
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+/* Navigation */
+nav {
+   margin-top: 10px;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   margin: 0 12px;
+   font-weight: bold;
+   transition: 0.3s;
+}
+
+nav a:hover {
+   color: #c8e6c9;
+}
+
+/* Main content */
+main {
+   max-width: 900px;
+   margin: 30px auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+   margin-bottom: 15px;
+}
+
+/* Paragraph spacing */
+p {
+   margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+   margin-bottom: 20px;
+   padding-left: 20px;
+}
+
+li {
+   margin-bottom: 8px;
+}
+
+/* Images */
+img {
+   display: block;
+   margin: 20px auto;
+   border-radius: 10px;
+}
+
+/* Inputs */
+input {
+   width: 100%;
+   max-width: 300px;
+   padding: 8px;
+   margin: 8px 0 15px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+/* Buttons */
+button {
+   padding: 10px 15px;
+   border: none;
+   background-color: #388e3c;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-bottom: 15px;
+   transition: 0.3s;
+}
+
+button:hover {
+   background-color: #2e7d32;
+}
+
+/* Form error messages */
+.error {
+   color: red;
+   font-size: 0.9em;
+}
+
+/* Success message */
+#successMessage {
+   margin-top: 15px;
+   font-weight: bold;
+}
+
+/* Footer */
+footer {
+   text-align: center;
+   padding: 15px;
+   background-color: #2e7d32;
+   color: white;
+   margin-top: 30px;
+}
